@@ -21,7 +21,7 @@ body {
 }
 .menuicon {
   font-size: 2rem;
-  margin-left: 20rem;
+  margin-left: 10rem;
   cursor: pointer;
   color: #ed4672;
   display: block;
@@ -54,7 +54,7 @@ nav ul {
   margin: 5px 1px;
 }*/
 header p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   font-style: italic;
   color: #ed4672;
