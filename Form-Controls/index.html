@@ -13,81 +13,88 @@
       <h1>Product Pick</h1>
     </header>
     <main>
+        <h2>Please Fill In The Information.</h2>
+      <div class="container">
       <form>
-        <div class="form-container">
-          <div class="firstname">
-            <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname" required />
+        <section class="form-section">
+            <div class="firstname">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" id="firstname" required />
+            </div>
+            <div class="lastname">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="lastname" required />
+            </div>
+            <div class="email">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="colour-tshirt">
+              <h3>Choose T-shirt Colour</h3>
+              <div>
+                <label for="black">Black</label>
+                <input type="radio" name="color-of-Tshirt" id="black" />
+              </div>
+              <div>
+                <label for="Pink">Pink</label>
+                <input type="radio" name="color-of-Tshirt" id="pink" />
+              </div>
+              <div>
+                <label for="white">White</label>
+                <input type="radio" name="color-of-Tshirt" id="white" />
+              </div>
+            </div>
+            <div class="size-tshirt">
+              <h3>Size of T-shirt</h3>
+              <div>
+                <label for="xs">XS</label>
+                <input type="radio" name="size" id="xs" />
+              </div>
+              <div>
+                <label for="s">S</label>
+                <input type="radio" name="size" id="s" />
+              </div>
+              <div>
+                <label for="m">M</label>
+                <input type="radio" name="size" id="m" />
+              </div>
+              <div>
+                <label for="l">L</label>
+                <input type="radio" name="size" id="l" />
+              </div>
+              <div>
+                <label for="xl">XL</label>
+                <input type="radio" name="size" id="xl" />
+              </div>
+              <div>
+                <label for="xxl">XXL</label>
+                <input type="radio" name="size" id="xxl" />
+              </div>
+            </div>
+            <div class="delivery-date">
+              <h3>Select a Delivery Date</h3>
+              <label for="date">Date</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                min="2024-09-26"
+                max="2024-10-25"
+                required
+              />
+            </div>
+          <div>
+            <button class="button" type="submit">Submit</button>
           </div>
-          <div class="lastname">
-            <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname" required />
-          </div>
-          <div class="email">
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" required />
-          </div>
-          <div class="colour-tshirt">
-            <h3>Choose T-shirt Colour</h3>
-            <div>
-              <label for="black">Black</label>
-              <input type="radio" name="color-of-Tshirt" id="black" />
-            </div>
-            <div>
-              <label for="Pink">Pink</label>
-              <input type="radio" name="color-of-Tshirt" id="pink" />
-            </div>
-            <div>
-              <label for="white">White</label>
-              <input type="radio" name="color-of-Tshirt" id="white" />
-            </div>
-          </div>
-          <div class="size-tshirt">
-            <h3>Size of T-shirt</h3>
-            <div>
-              <label for="xs">XS</label>
-              <input type="radio" name="size" id="xs" />
-            </div>
-            <div>
-              <label for="s">S</label>
-              <input type="radio" name="size" id="s" />
-            </div>
-            <div>
-              <label for="m">M</label>
-              <input type="radio" name="size" id="m" />
-            </div>
-            <div>
-              <label for="l">L</label>
-              <input type="radio" name="size" id="l" />
-            </div>
-            <div>
-              <label for="xl">XL</label>
-              <input type="radio" name="size" id="xl" />
-            </div>
-            <div>
-              <label for="xxl">XXL</label>
-              <input type="radio" name="size" id="xxl" />
-            </div>
-          </div>
-          <div class="delivery-date">
-            <h3>Select a Delivery Date</h3>
-            <label for="date">Date</label>
-            <input
-              type="date"
-              name="date"
-              id="date"
-              min="2024-09-26"
-              max="2024-10-25"
-              required
-            />
-          </div>
-          <button class="button" type="submit">Submit</button>
-        </div>
+        
       </form>
+      </section>
+      <div class="image-section"></div>
+    </div>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By Afere Precious</h2>
+      <p>By Afere Precious<p>
     </footer>
   </body>
 </html>
