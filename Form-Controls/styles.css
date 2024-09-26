@@ -1,10 +1,10 @@
-/* Reset and global styles */
+/* universal styles */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+/*body*/
 body {
   font-family: garamond, serif;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   color: #1b1212;
   background-color: #f5c9d6;
 }
-
+/*h1*/
 h1 {
   margin-top: 0.4rem;
   text-align: center;
@@ -20,6 +20,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 500;
 }
+/*h2*/
 h2 {
   margin-top: 0.7rem;
   margin-bottom: 0.8rem;
@@ -27,7 +28,7 @@ h2 {
   font-weight: 500;
   font-size: 2rem;
 }
-
+/*wrapper*/
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,7 +38,7 @@ h2 {
   padding-bottom: 2rem;
   align-items: start;
 }
-
+/*Form*/
 .form-section {
   display: flex;
   flex-direction: column;
@@ -130,7 +131,7 @@ button {
   transform: scale(1.11);
   opacity: 0.9;
 }
-
+/*footer*/
 footer {
   text-align: center;
   margin-top: 2rem;
@@ -140,7 +141,7 @@ footer {
   color: #808080;
   border-top: 1px solid #ccc;
 }
-
+/*media query for screen 768px*/
 @media screen and (max-width: 768px) {
   .image-section {
     display: none;
@@ -183,6 +184,7 @@ footer {
     text-align: center;
   }
 }
+/*media query for screen 1000px*/
 @media screen and (max-width: 1000px) {
   label {
     font-size: 1.3rem;
