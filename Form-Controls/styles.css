@@ -39,8 +39,6 @@ h2 {
   padding-left: 2rem;
   padding-bottom: 2rem;
   align-items: start;
-  background-color: #fff3f6;
-  border-radius: 12px;
 }
 /*Form*/
 .form-section {
@@ -55,10 +53,10 @@ h2 {
   row-gap: 1.5rem;
 }
 
-form h3 {
+form p {
   margin-bottom: 0.5rem;
 }
-.colour-tshirt h3 {
+.colour-tshirt p {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
@@ -67,7 +65,7 @@ form h3 {
   accent-color: #b76e79;
 }
 
-.size-tshirt h3 {
+.size-tshirt p {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
@@ -75,7 +73,7 @@ form h3 {
 .size-tshirt input {
   accent-color: grey;
 }
-.delivery-date h3 {
+.delivery-date p {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
@@ -161,6 +159,10 @@ footer {
   .container {
     margin: 1rem;
     padding: 1rem;
+    background-color: #f5c9d6;
+    border-radius: 12px;
+    padding-left: 3rem;
+    opacity: 0.85;
   }
   .form-section form {
     row-gap: 1rem;
@@ -183,7 +185,7 @@ footer {
   .button {
     width: 58%;
   }
-  h3 {
+  p {
     font-size: 1.8rem;
   }
   footer {
