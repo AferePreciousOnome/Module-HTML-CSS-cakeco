@@ -9,8 +9,9 @@ body {
   font-family: garamond, serif;
   margin: 0;
   padding: 0;
-  color: #1b1212;
-  background-color: #f5c9d6;
+  color: #b76e79;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0.85;
   line-height: 1.6;
 }
 /*h1*/
@@ -20,7 +21,7 @@ h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 500;
-  color: #333;
+  color: #b76e79;
 }
 /*h2*/
 h2 {
@@ -152,17 +153,23 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
     min-height: 100vh;
     height: auto;
     color: #1b1212;
   }
   .container {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 1rem;
     padding: 1rem;
-    background-color: #f5c9d6;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
-    padding-left: 3rem;
+    padding-left: 5rem;
     opacity: 0.85;
+  }
+  h1 label {
+    text-align: center;
   }
   .form-section form {
     row-gap: 1rem;
@@ -171,19 +178,19 @@ footer {
     font-size: 1.3rem;
   }
   .firstname {
-    width: 100%;
-  }
-  .lastname {
-    width: 100%;
-  }
-  .email {
-    width: 100%;
-  }
-  .delivery-date {
     width: 80%;
   }
+  .lastname {
+    width: 80%;
+  }
+  .email {
+    width: 80%;
+  }
+  .delivery-date {
+    width: 60%;
+  }
   .button {
-    width: 58%;
+    width: 40%;
   }
   p {
     font-size: 1.8rem;
