@@ -11,8 +11,7 @@ body {
   overflow: auto !important;
 }
 /* wrapper*/
-.container {
-}
+
 /*logo*/
 .logo {
   width: 6rem;
@@ -21,7 +20,7 @@ body {
 }
 .menuicon {
   font-size: 2rem;
-  margin-left: 20rem;
+  margin-left: 10rem;
   cursor: pointer;
   color: #ed4672;
   display: block;
@@ -54,12 +53,11 @@ nav ul {
   margin: 5px 1px;
 }*/
 header p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   font-style: italic;
   color: #ed4672;
   margin-top: 2rem;
-  margin-right: 2rem;
 }
 /*article*/
 .hero-article {
@@ -180,6 +178,9 @@ footer {
   }
 }
 @media screen and (min-width: 900px) {
+  .header-text p {
+    margin-right: 1.5rem;
+  }
   .menuicon {
     display: none;
   }
