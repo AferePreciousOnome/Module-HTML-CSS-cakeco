@@ -308,3 +308,27 @@ footer {
   margin-left: 5px;
   margin-bottom: 5px;
 }
+.body {
+  box-sizing: border-box;
+  background-color: var(--Light-beige);
+  border-radius: 8px;
+}
+.menu-section2 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 30px;
+  list-style: none;
+}
+.menu-section2 li a {
+  text-decoration: none;
+  font-family: var(--body-text);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--Black);
+}
+.menu-section2 li a:hover {
+  color: #0150fd;
+  transition: color 0.3s ease;
+}
