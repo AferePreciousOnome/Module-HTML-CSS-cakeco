@@ -8,92 +8,116 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins  ">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Quicksand">
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins  " />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Quicksand" />
+    <link rel="stylesheet" href="css/main.css" />
     <!-- Add a link to your custom CSS here -->
 
     <title>Responsive grid project</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="profile-card">
-        <div class="profile-header">
-          <h1>Maya Nelson</h1>
-          <p>Project Manager</p>
-        </div>
+    <header>
+      <div class="header-left">
+        <div class="square"></div>
+        <h1>
+          Maya Nelson </h1>
+          <p class="header-p">PROJECT MANAGER</p>
+      </div>
+      <label class="menu-icon" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+      </label>
+<nav id="menu">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+    </header>
+    <main>
+      <section class="profile-card">
         <div class="profile-img">
-          <img
-            src="https://i.pinimg.com/736x/c9/25/77/c92577f469b471cadef53cd5310ae311.jpg"
-            alt="Profile Picture"
-          />
+          <img src="https://i.pinimg.com/736x/c9/25/77/c92577f469b471cadef53cd5310ae311.jpg" alt="Profile Image" />
         </div>
-        <div class="profile-buttons">
-          <a href="#" class="btn resume-btn">Resume</a>
-          <a href="#" class="btn projects-btn">Projects</a>
-        </div>
-        <div class="social-icons">
-          <a href="#"
-            ><i class="fa-brands fa-facebook fa-xl" style="color: black"></i>
-          </a>
-          <a href="#"
-            ><i class="fa-brands fa-twitter fa-xl" style="color: black"></i
-          ></a>
-          <a href="#"
-            ><i class="fa-brands fa-linkedin fa-xl" style="color: black"></i>
-          </a>
-          <a href="#"
-            ><i class="fa-brands fa-instagram fa-xl" style="color: black"></i>
-          </a>
-        </div>
-      </div>
-      <div class="hello-section">
-        <h2>Hello</h2>
-        <p>Here is who I am and what I do</p>
-        <p>
-          As a Project Manager, I plan, execute, and oversee projects to ensure
-          they meet objectives, timelines, and budgets. I coordinate teams,
-          manage resources, communicate with stakeholders, and mitigate risks.
-          My role ensures successful project delivery while maintaining quality,
-          efficiency, and alignment with organizational goals.
-        </p>
-      </div>
-      <footer>
-        <div>
-          <div>
-            <p><strong>Call</strong><br />123-456-789</p>
+        <div class="profile-header">
+          <h2>Maya Nelson</h2>
+          <p>Project Manager</p>
+          <hr />
+          <div class="profile-buttons">
+            <a href="#" class="btn resume-btn">Resume</a>
+            <a href="#" class="btn projects-btn">Projects</a>
           </div>
-          <div>
-            <p><strong>Write</strong> <br />infosite@gmail.com</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <p><strong>Follow</strong><br /></p>
+          <div class="social-icons">
             <a href="#"
-              ><i class="fa-brands fa-facebook fa-xl" style="color: black"></i>
+              ><i class="fa-brands fa-facebook fa-" style="color: black"></i>
             </a>
             <a href="#"
-              ><i class="fa-brands fa-twitter fa-xl" style="color: black"></i
+              ><i class="fa-brands fa-twitter fa" style="color: black"></i
             ></a>
             <a href="#"
-              ><i class="fa-brands fa-linkedin fa-xl" style="color: black"></i>
+              ><i class="fa-brands fa-linkedin fa" style="color: black"></i>
             </a>
             <a href="#"
-              ><i class="fa-brands fa-instagram fa-xl" style="color: black"></i>
+              ><i class="fa-brands fa-instagram fa" style="color: black"></i>
             </a>
           </div>
-          <div>
-   This website design was created by Wix.com, and is used here for strictly
-      educational purposes.
-    </p>
+        </div>
+      </section>
+      <section class="hello-section">
+        <h1>Hello</h1>
+        <p class="intro"><strong>Here's who I am & what I do</p></strong>
+        <p class="description">
+          As a Project Manager, I plan, execute,and oversee projects to ensure
+          they meet objectives, timelines, and budgets. I coordinate teams,
+          manage resources, communicate with stakeholders, and mitigate risks.
+          <p class="paragraph"> My role ensures successful project delivery while maintaining quality,
+          efficiency, and alignment with organizational goals.</p>
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="contact-info">
+          <div class="call">
+            <h3>Call</h3>
+            <p>123-456-7890</p>
+          </div>
+          <div class="write">
+            <h3>Write</h3>
+            <p>info@mysite.com</p>
           </div>
         </div>
-      </footer>
-    </div>
-    <!-- Add your markup here -->
 
-    <!-- Please leave this in to credit the creators of this design -->
+        <div class="contact-social">
+          <h3>Follow</h3>
+          <div class="social-media">
+            <a href="#"
+            ><i class="fa-brands fa-facebook fa-" style="color: black"></i>
+          </a>
+          <a href="#"
+            ><i class="fa-brands fa-twitter fa" style="color: black"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-linkedin fa" style="color: black"></i>
+          </a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram fa" style="color: black"></i>
+          </a>
+        </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>© 2035 by Maya Nelson</p>
+        <p class="footer-p">"This website design was created by Wix.com, and is used here for strictly educational purposes."
+</p>
+      </footer>
+    </main>
   </body>
 </html>

@@ -1,3 +1,310 @@
-/* Add your CSS here */
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Dont' forget to link this file to your HTML in the <head> */
+/* Root variables for colors */
+:root {
+  --Dark-beige: #e6dacd;
+  --Light-beige: #f4ece6;
+  --Royal-blue: #0150fd;
+  --Black: #000;
+  --White: #fff;
+  --heading-text: "Poppins", sans-serif;
+  --body-text: "Quicksand", sans-serif;
+}
+
+/* Body and general styles */
+body {
+  font-family: var(--body-text);
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header section */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.square {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: var(--Royal-blue);
+}
+
+.header-left h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-family: var(--heading-text);
+  margin-top: 20px;
+}
+
+.header-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Menu Icon Container */
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Each Line of the Hamburger */
+.menu-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: var(--Royal-blue);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Menu items,  hidden */
+#menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#menu.active {
+  display: block;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu ul li {
+  margin: 10px 0;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: var(--Black);
+  font-size: 16px;
+}
+
+/* Main layout */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile Card */
+.profile-card {
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  height: 80vh;
+  width: 90%;
+  max-width: 400px;
+  background-color: var(--Light-beige);
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: var(--heading-text);
+}
+
+.profile-header p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile-header hr {
+  border: 1px solid var(--Royal-blue);
+  width: 30%;
+  margin: 10px auto;
+}
+
+/* Buttons */
+.profile-buttons {
+  margin: 20px 0;
+}
+
+.profile-buttons .btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: var(--heading-text);
+  display: inline-block;
+}
+
+.resume-btn {
+  background-color: var(--Royal-blue);
+  color: var(--White);
+}
+
+.projects-btn {
+  background-color: var(--White);
+  color: var(--Black);
+  border: 1px solid var(--Black);
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 20px;
+  background-color: var(--White);
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  align-items: center;
+  padding: 12px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Hello Section */
+.hello-section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--Dark-beige);
+  text-align: center;
+  margin-top: 20px;
+  height: 600px;
+  margin-top: -150px;
+}
+
+.hello-section h1 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 37px;
+  font-weight: 600;
+  font-family: var(--heading-text);
+  margin-top: 180px;
+}
+
+.hello-section .intro {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10px;
+  margin-right: 5px;
+  text-align: left;
+  font-family: var(--heading-text);
+}
+
+.hello-section .description {
+  font-family: var(--body-text);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: justify;
+  padding: 0 10px;
+}
+.paragraph {
+  font-family: var(--body-text);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: justify;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+  width: 100%;
+  background-color: var(--White);
+  padding: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  font-family: var(--heading-text);
+  font-weight: 600;
+  font-family: var(--body-text);
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: var(--body-text);
+}
+
+/* Contact Social Media Section */
+.contact-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: var(--body-text);
+}
+
+.social-media {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media a img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 10px;
+  color: var(--Black);
+  font-family: var(--body-text);
+  font-weight: 300;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
