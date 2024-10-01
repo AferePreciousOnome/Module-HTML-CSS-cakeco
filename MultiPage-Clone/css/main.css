@@ -308,6 +308,7 @@ footer {
   margin-left: 5px;
   margin-bottom: 5px;
 }
+/*About me menu dropdown section*/
 .body {
   box-sizing: border-box;
   background-color: var(--Light-beige);
@@ -331,4 +332,144 @@ footer {
 .menu-section2 li a:hover {
   color: #0150fd;
   transition: color 0.3s ease;
+}
+/*Resume section*/
+.body2 {
+  background-color: var(--Dark-beige);
+}
+header {
+  background-color: var(--White);
+}
+.resume-section {
+  margin-top: 70px;
+  text-align: center;
+}
+.resume-section h2 {
+  display: inline-block;
+  font-size: 25px;
+  font-family: var(--heading-text);
+}
+.square2 {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-color: var(--Royal-blue);
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+.experience a {
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-family: var(--body-text);
+  display: inline-block;
+  background-color: var(--Royal-blue);
+  color: var(--White);
+  margin-right: 12px;
+  font-weight: 300;
+}
+.experience-text {
+  font-family: var(--body-text);
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 12px;
+}
+.experience-text a {
+  font-family: var(--body-text);
+  font-size: 13px;
+  font-weight: 300;
+}
+.first-paragraph {
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  height: 350px;
+  max-width: 400px;
+  background-color: var(--White);
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+.first-paragraph p {
+  font-family: var(--body-text);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin: 20px 0;
+  width: 100%;
+  text-align: justify;
+  padding: 15px 10px;
+}
+.education {
+  font-family: var(--body-text);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+h3 {
+  font-family: var(--body-text);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.skills {
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  height: 350px;
+  max-width: 400px;
+  background-color: var(--White);
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+.square3 {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: var(--Royal-blue);
+}
+.items {
+  display: inline-block;
+  font-size: 15px;
+  font-family: var(--body-text);
+  font-weight: 300;
+  line-height: 4rem;
+  text-align: justify;
+}
+.language {
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  height: 350px;
+  max-width: 400px;
+  background-color: var(--White);
+  border-radius: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.follow {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: var(--body-text);
 }
