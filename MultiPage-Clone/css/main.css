@@ -563,10 +563,23 @@ h4 {
   background-color: var(--Dark-beige);
 }
 .square6 {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   background-color: var(--Royal-blue);
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.box-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+.contact-heading {
+  padding-top: 12px;
+  font-size: 30px;
+  font-family: var(--heading-text);
 }
 .form-section {
   position: relative;
@@ -577,12 +590,14 @@ h4 {
   background-color: var(--White);
   border-radius: 3px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: start;
   margin-bottom: 20px;
   margin: 0 20px;
   margin-top: 30px;
   margin-bottom: 50px;
-  padding: 10px 20px;
+  padding: 15px 20px;
+  font-family: var(--body-text);
+  font-size: 15px;
 }
 .form-section input,
 .form-section textarea {
@@ -596,13 +611,23 @@ h4 {
   width: 100%;
 }
 .form-section button {
-  padding: 15px;
-  width: 50%;
+  padding: 12px;
+  width: 100%;
   background-color: var(--Royal-blue);
   color: var(--White);
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: var(--body-text);
+  font-weight: 300;
   border-radius: 30px;
   transition: background-color 0.3s ease;
+  text-align: center;
+}
+.form-section button:hover {
+  background-color: var(--Royal-blue);
+  transition: background-color 0.3s ease;
+}
+.follow-contact {
+  text-align: start;
 }
