@@ -232,8 +232,8 @@ main {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 300;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 20px;
+  padding: 0 10px;
   width: 280px;
   padding-left: 15px;
   text-align: justify;
@@ -241,10 +241,9 @@ main {
 .paragraph {
   font-family: var(--body-text);
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.6;
   font-weight: 300;
-  margin: 0;
-  padding: 0;
+  padding: 10px 10px;
   width: 100%;
   text-align: justify;
   padding: 0 10px;
