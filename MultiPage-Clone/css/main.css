@@ -352,14 +352,14 @@ footer {
   justify-content: space-between;
   flex-direction: column;
   margin-top: 60px;
-  gap: 30px;
+  gap: 40px;
   list-style: none;
 }
 .menu-section2 li a {
   text-decoration: none;
   font-family: var(--body-text);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--Black);
 }
 .menu-section2 li a:hover {
