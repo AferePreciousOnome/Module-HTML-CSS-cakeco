@@ -237,6 +237,7 @@ main {
   width: 280px;
   padding-left: 15px;
   text-align: justify;
+  width: 100%;
 }
 .paragraph {
   font-family: var(--body-text);
