@@ -212,7 +212,7 @@ main {
 .hello-section h1 {
   text-align: left;
   margin-left: 10px;
-  font-size: 37px;
+  font-size: 40px;
   font-weight: 600;
   font-family: var(--heading-text);
   margin-top: 20px;
@@ -229,7 +229,7 @@ main {
 
 .hello-section .description {
   font-family: var(--body-text);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   font-weight: 300;
   margin-bottom: 20px;
@@ -241,7 +241,7 @@ main {
 }
 .paragraph {
   font-family: var(--body-text);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   font-weight: 300;
   padding: 10px 10px;
