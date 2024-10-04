@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
 }
 
 /* Header section */
@@ -112,7 +113,7 @@ main {
   position: relative;
   z-index: 10;
   margin-top: 25px;
-  height: 80vh;
+  height: 350px;
   width: 90%;
   max-width: 400px;
   background-color: var(--Light-beige);
@@ -255,6 +256,7 @@ main {
   width: 100%;
   background-color: var(--White);
   padding: 20px;
+  position: relative;
 }
 
 .contact-info {
@@ -544,11 +546,14 @@ h4 {
   max-width: 800px;
 }
 .project-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   position: relative;
   z-index: 10;
   margin-top: 25px;
   height: 450px;
-  max-width: 400px;
+  max-width: 300px;
   background-color: var(--White);
   border-radius: 3px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -558,8 +563,11 @@ h4 {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.project-image {
-  width: 200px;
+.project-image img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 h4 {
   font-size: 18px;
@@ -671,11 +679,16 @@ h4 {
 }
 /*media query for big screen-About me section*/
 @media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .profile-box {
     position: relative;
     z-index: 1;
     display: inline-block;
-    height: 700px;
+    height: 650px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     width: 680px;
     background-color: var(--Dark-beige);
@@ -709,7 +722,7 @@ h4 {
     gap: 20px;
   }
   .hello-section h1 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-right: 20px;
     font-size: 100px;
     text-align: center;
@@ -717,8 +730,6 @@ h4 {
   .hello-section .intro {
     text-align: center;
     font-size: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
   }
   .hello-section p {
     margin-top: 15px;
@@ -873,12 +884,6 @@ h4 {
 }
 /*resume Section Media query*/
 @media screen and (min-width: 768px) {
-  html body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
   .header-resume {
     padding: 50px;
   }
@@ -956,14 +961,22 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 550px;
-    height: 400px;
+    max-width: 800px;
+    height: auto;
+    padding: 0;
+  }
+  .project-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
   }
   .project-image img {
-    max-width: 310px;
-    height: 400px;
-    margin-top: 5px;
-    padding-right: 90px;
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+    display: block;
   }
 }
 /*Contact section for media query*/
