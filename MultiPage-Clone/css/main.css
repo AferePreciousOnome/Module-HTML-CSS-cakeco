@@ -553,8 +553,8 @@ h4 {
   z-index: 10;
   margin-top: 30px;
   margin-bottom: 5px;
-  margin-left: 14px;
-  margin-right: 14px;
+  margin-left: 5%;
+  margin-right: 5%;
   height: auto;
   width: 90%;
   background-color: var(--White);
